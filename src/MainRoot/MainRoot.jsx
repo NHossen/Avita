@@ -1,18 +1,23 @@
+// src/MainRoot/MainRoot.jsx
 
-
-
-import Header from "../components/Header/Header.jsx";
-import Footer from "../components/Footer/Footer.jsx";
 import { Outlet } from "react-router-dom";
+import Header from "../components/Header/Header";
+import Footer from "../components/Footer/Footer";
 
-export default function MainRoot() {
-  return (
-    <>
-      <Header />
-      <main className="min-h-screen">
-        <Outlet />
-      </main>
-      <Footer />
-    </>
-  );
-}
+const MainRoot = () => {
+    return (
+        <>
+            <Header />
+
+            <main> 
+                <Outlet /> 
+            </main>
+            
+            <div className="px-4 container mx-auto">
+                <Footer />
+            </div>
+        </>
+    );
+};
+
+export default MainRoot;
