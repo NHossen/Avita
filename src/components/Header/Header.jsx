@@ -18,7 +18,7 @@ const Header = () => {
   return (
     <>
       {/* PROMO + LANGUAGE BAR */}
-      <div className="w-full bg-red-500 flex flex-col sm:flex-row items-center justify-between px-6 py-3 relative">
+      <div className="w-full bg-customPurple flex flex-col sm:flex-row items-center justify-between px-6 py-3 relative">
         {/* Promo Text */}
         <p className="text-sm sm:text-base text-orange-400 font-semibold mb-2 sm:mb-0 text-center sm:text-left">
           🚚 <span className="font-bold">{t('promoText')}</span> — {t('deliveryService')}
