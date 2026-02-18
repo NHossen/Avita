@@ -71,7 +71,7 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.5 }}
           >
             <Link 
-              to="/services" 
+              to="/oasis_luxury" 
               className="px-6 mt-5 sm:px-10 py-3 rounded-full bg-[#C4B454] text-black hover:bg-white hover:text-[#C4B454] transition-all duration-500 transform hover:scale-105 shadow-2xl font-black uppercase tracking-widest text-xs sm:text-sm md:text-xs inline-block"
               style={{ pointerEvents: 'auto', position: 'relative', zIndex: 10 }}
             >

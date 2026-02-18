@@ -16,6 +16,7 @@ import Blog from "./components/Blogs/Blogs.jsx";
 import VisaServices from "./components/Services/VisaService/VisaService.jsx";
 import TourPackages from "./components/Services/TourPackages/TourPackages.jsx";
 import DesertSafari from "./components/Services/DesertSafari/DesertSafari.jsx";
+import OasisLuxury from "./components/OasisLuxury/OasisLuxury.jsx";
 
 
 const router = createBrowserRouter([
@@ -30,6 +31,7 @@ const router = createBrowserRouter([
       { path: "/desert_safari", element: <DesertSafari /> },
       { path: "/contact", element: <Contact /> },
       { path: "/blogs", element: <Blog /> },
+      { path: "/oasis_luxury", element: <OasisLuxury /> },
     ],
   },
 ]);
