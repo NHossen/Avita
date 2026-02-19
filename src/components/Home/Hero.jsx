@@ -5,10 +5,12 @@ const Hero = () => {
   // Service data to match the grid in your snippet
   const serviceLinks = [
     { title: "Visa Services", icon: "🎫", link: "visa_services" },
-    { title: "Air Tickets", 
-    icon: "✈️", 
-    link: "https://wa.me/971509813991?text=Hello%20Oasis%20Luxury!%20I%20am%20interested%20in%20booking%20Air%20Tickets.%20Please%20provide%20rates.", 
-    isWhatsApp: true },
+    { 
+      title: "Air Tickets", 
+      icon: "✈️", 
+      link: "https://wa.me/971509813991?text=Hello%20Oasis%20Luxury!%20I%20am%20interested%20in%20booking%20Air%20Tickets.%20Please%20provide%20rates.", 
+      isWhatsApp: true 
+    },
     { title: "Tour Packages", icon: "🧳", link: "tour_packages" },
     { title: "Desert Safari", icon: "🏜️", link: "/desert_safari" },
   ];
@@ -43,7 +45,6 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
           >
             <h1 className="text-4xl sm:text-5xl md:text-8xl font-black mb-4 tracking-tight uppercase text-center">
-              {/* Updated Animation */}
               <motion.div
                 initial="hidden"
                 animate="visible"
@@ -103,12 +104,12 @@ const Hero = () => {
               >
                 <Link
                   to={service.link}
-                  className="group flex flex-col items-center justify-center p-4 sm:p-6 bg-white/5 backdrop-blur-lg border border-white/10 rounded-2xl transition-all duration-300 hover:bg-white hover:shadow-[0_20px_50px_rgba(196,180,84,0.3)]"
+                  className="group flex flex-col items-center justify-center p-4 sm:p-6 bg-white backdrop-blur-lg border border-white/10 rounded-2xl transition-all duration-300 hover:bg-[#E6D3A3] hover:shadow-[0_20px_50px_rgba(196,180,84,0.3)]"
                 >
                   <span className="text-3xl sm:text-4xl transition-transform duration-300 group-hover:scale-110">
                     {service.icon}
                   </span>
-                  <span className="mt-2 sm:mt-4 font-bold text-[9px] sm:text-[10px] md:text-xs uppercase tracking-[0.15em] sm:tracking-[0.2em] text-white transition-colors duration-300 group-hover:text-black">
+                  <span className="mt-2 sm:mt-4 font-bold text-[9px] sm:text-[10px] md:text-xs uppercase tracking-[0.15em] sm:tracking-[0.2em] text-black transition-colors duration-300 group-hover:text-black">
                     {service.title}
                   </span>
                 </Link>
