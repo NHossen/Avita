@@ -6,8 +6,8 @@ const Safari = () => {
     {
       id: 1,
       title: "Evening Desert Safari",
-      price: "AED 80",
-      image: "https://images.unsplash.com/photo-1509233725247-49e657c54213?q=80&w=600&auto=format&fit=crop",
+      price: "AED 100",
+      image: "https://media.tacdn.com/media/attractions-splice-spp-674x446/09/99/99/87.jpg",
       desc: "Enjoy the ultimate Evening Desert Safari in Dubai — thrilling dune bashing, sunset views, live shows, and a delicious BBQ dinner under the stars.",
       inclusions: [
         "Pickup & Drop-off by 4×4 Vehicle",
@@ -21,8 +21,8 @@ const Safari = () => {
     {
       id: 2,
       title: "VIP Desert Safari",
-      price: "AED 145",
-      image: "https://images.unsplash.com/photo-1539129790489-e820061fa637?q=80&w=600&auto=format&fit=crop",
+      price: "AED 130",
+      image: "https://arabiandesertsafari.net/wp-content/uploads/VIP-Desert-Safari-Dubai.jpg",
       desc: "Experience a luxurious VIP Desert Safari in Dubai with exclusive seating, table service, and premium performances for an unforgettable evening.",
       inclusions: [
         "Pickup & Drop-off by 4×4 Vehicle",
@@ -38,7 +38,7 @@ const Safari = () => {
       id: 3,
       title: "Private Desert Safari",
       price: "AED 600",
-      image: "https://images.unsplash.com/photo-1489493173505-60ecb92d357d?q=80&w=600&auto=format&fit=crop",
+      image: "https://saharadesertdubai.com/storage/tours/images/8VuhkFbzBdDrJK0ar7zrbHaQ1AGnfcRUpPfQf0Br.jpg",
       desc: "Enjoy exclusivity and comfort with a Private Desert Safari in Dubai — designed for couples and families seeking privacy and luxury.",
       inclusions: [
         "Private 4×4 Pick-up & Drop-off",

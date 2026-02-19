@@ -29,10 +29,10 @@ export default function Footer() {
             Connecting You To The World — Your Travel And Global Mobility Partner. Experience luxury and excellence with Oasis.
           </p>
           <div className="flex space-x-4 mt-8">
-            <a href="#" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-[#C4B454] hover:bg-[#C4B454] hover:text-black transition-all">
+            <a href="https://www.facebook.com/profile.php?id=61568345138204" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-[#C4B454] hover:bg-[#C4B454] hover:text-black transition-all">
               <FaFacebookF size={16} />
             </a>
-            <a href="#" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-[#C4B454] hover:bg-[#C4B454] hover:text-black transition-all">
+            <a href="https://www.instagram.com/oasisluxurytravel/" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-[#C4B454] hover:bg-[#C4B454] hover:text-black transition-all">
               <FaInstagram size={16} />
             </a>
             <a href="https://wa.me/971509813991" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-[#C4B454] hover:bg-[#C4B454] hover:text-black transition-all">
@@ -62,16 +62,18 @@ export default function Footer() {
               <FaPhoneAlt className="text-[#C4B454] shrink-0" />
               <div className="flex flex-col">
                 <span>+971 50 981 3991</span>
+                <span>+971 56 555 9912</span>
                 <span>+971 4 26 15 799</span>
               </div>
             </div>
             <div className="flex items-center justify-center sm:justify-start gap-4">
               <FaEnvelope className="text-[#C4B454] shrink-0" />
-              <span className="break-all">info@oasisluxurytourism.com</span>
+              <span className="break-all">oasisluxury.ae@gmail.com
+</span>
             </div>
             <div className="flex items-center justify-center sm:justify-start gap-4">
               <FaGlobe className="text-[#C4B454] shrink-0" />
-              <span>www.oasisluxurytourism.com</span>
+              <span>www.oasisluxuryllc.com</span>
             </div>
           </div>
         </div>

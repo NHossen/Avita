@@ -18,7 +18,7 @@ const Contact = () => {
     {
       icon: <FaMapMarkerAlt />,
       title: "Our Location",
-      desc: "Al Nasser Bldg, Deira, Dubai, UAE",
+      desc: "Al Nasser Building,Shop No 3 Near Al Nakheel Center,Naif, Deira, Dubai, UAE",
       link: "https://maps.google.com"
     },
     {
@@ -30,13 +30,13 @@ const Contact = () => {
     {
       icon: <FaEnvelope />,
       title: "Email Us",
-      desc: "info@oasisluxury.ae",
-      link: "mailto:info@oasisluxury.ae"
+      desc: "oasisluxury.ae@gmail.com",
+      link: "mailto:oasisluxury.ae@gmail.com"
     },
     {
       icon: <FaClock />,
       title: "Working Hours",
-      desc: "Mon - Sat: 09:00 - 18:00",
+      desc: "Mon - Sat: 09:00 - 22:00",
       link: "#"
     }
   ];
