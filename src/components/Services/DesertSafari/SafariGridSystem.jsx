@@ -4,14 +4,14 @@ import { FaWhatsapp, FaStar, FaMapMarkerAlt, FaChevronLeft, FaChevronRight } fro
 const SafariPaginationSystem = () => {
   // Data set with 6 items to demonstrate the "3 per page" requirement
   const allSafaris = [
-    { id: 1, name: "Morning Adventure", price: "AED 120", rating: 4.8, reviews: "2.4k", image: "https://www.dubaidesertsafaris.com/wp-content/uploads/2025/01/1df65cf17c538a1cdda6080296db7e10.webp", type: "Morning" },
-    { id: 2, name: "VIP Evening Safari", price: "AED 145", rating: 4.9, reviews: "1.1k", image: "https://eveningdesertsafaridubai.com/assets/images/page_images/VIP%20Morning%20Desert%20Safari%20Dubai.jpg", type: "Evening" },
-    { id: 3, name: "ATV Quad Special", price: "AED 250", rating: 4.9, reviews: "10k+", image: "https://saharadesertdubai.com/storage/tours/images/zaZMzdB3X3AuvUKjX66iMDIB6igNc8Y2PN0dYIEn.jpg", type: "Adventure" },
-    { id: 4, name: "Private Camel Trek", price: "AED 600", rating: 4.7, reviews: "803", image: "https://excursionmania.com/cdn-cgi/image/quality=75,format=webp,w=auto,h=auto,fit=scale-down,trim=border/https://excursionmania.com/supplier/uploads/excursions/excursions/ex-3578/private-desert-safari-abu-dhab17552597561.png", type: "Private" },
-    { id: 5, name: "Overnight Camping", price: "AED 450", rating: 4.9, reviews: "900", image: "https://liwaadventures.com/wp-content/uploads/2023/02/overnight-desert-safari.jpg", type: "Overnight" },
+    { id: 1, name: "Morning Adventure", price: "AED 140", rating: 4.8, reviews: "2.4k", image: "https://www.dubaidesertsafaris.com/wp-content/uploads/2025/01/1df65cf17c538a1cdda6080296db7e10.webp", type: "Morning" },
+    { id: 2, name: "VIP Evening Safari", price: "AED 180", rating: 4.9, reviews: "1.1k", image: "https://eveningdesertsafaridubai.com/assets/images/page_images/VIP%20Morning%20Desert%20Safari%20Dubai.jpg", type: "Evening" },
+    { id: 3, name: "ATV Quad Special", price: "AED 850", rating: 4.9, reviews: "10k+", image: "https://saharadesertdubai.com/storage/tours/images/zaZMzdB3X3AuvUKjX66iMDIB6igNc8Y2PN0dYIEn.jpg", type: "Adventure" },
+    { id: 4, name: "Private Camel Trek", price: "AED 400", rating: 4.7, reviews: "803", image: "https://excursionmania.com/cdn-cgi/image/quality=75,format=webp,w=auto,h=auto,fit=scale-down,trim=border/https://excursionmania.com/supplier/uploads/excursions/excursions/ex-3578/private-desert-safari-abu-dhab17552597561.png", type: "Private" },
+    { id: 5, name: "Overnight Camping", price: "AED 750", rating: 4.9, reviews: "900", image: "https://liwaadventures.com/wp-content/uploads/2023/02/overnight-desert-safari.jpg", type: "Overnight" },
     { id: 6, name: "Dune Buggy Drive", price: "AED 800", rating: 5.0, reviews: "1.5k", image: "https://media.tacdn.com/media/attractions-splice-spp-674x446/0f/9d/0d/61.jpg", type: "Self-Drive" },
-    { id: 7, name: "Red Dune Safari", price: "AED 90", rating: 4.6, reviews: "3k", image: "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/13/41/b4/d8.jpg", type: "Evening" },
-    { id: 8, name: "Heritage Dinner", price: "AED 350", rating: 4.8, reviews: "420", image: "https://i.ytimg.com/vi/7VpREI7XWjo/maxresdefault.jpg", type: "Luxury" },
+    { id: 7, name: "Red Dune Safari", price: "AED 150", rating: 4.6, reviews: "3k", image: "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/13/41/b4/d8.jpg", type: "Evening" },
+    { id: 8, name: "Heritage Dinner", price: "AED 450", rating: 4.8, reviews: "420", image: "https://i.ytimg.com/vi/7VpREI7XWjo/maxresdefault.jpg", type: "Luxury" },
   ];
 
   const [currentPage, setCurrentPage] = useState(1);

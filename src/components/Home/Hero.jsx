@@ -29,14 +29,14 @@ const Hero = () => {
         initial={{ scale: 1.1 }}
         animate={{ scale: 1 }}
         transition={{ duration: 10, ease: "easeOut" }}
-        src="/oasis-airline.jpg" 
+        src="/flight_oasis.png" 
         className="object-cover w-full h-full"
         alt="Welcome to Oasis Luxury"
         loading="eager"
       />
 
       {/* Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/30 to-black/80 flex flex-col items-center justify-center text-white text-center px-4 sm:px-6">
+      <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/30 to-black/50 flex flex-col items-center justify-center text-white text-center px-4 sm:px-6">
 
         <div className="max-w-5xl w-full">
           <motion.div
@@ -60,7 +60,7 @@ const Hero = () => {
                   }}
                   className="block"
                 >
-                  Welcome to Oasis
+                  Welcome to Oasis Luxury
                 </motion.span>
               </motion.div>
             </h1>
