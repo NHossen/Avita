@@ -20,14 +20,14 @@ const Safari = () => {
     },
     {
       id: 2,
-      title: "VIP Desert Safari",
+      title: "Premium Desert Safari",
       price: "AED 180",
       image: "https://arabiandesertsafari.net/wp-content/uploads/VIP-Desert-Safari-Dubai.jpg",
-      desc: "Experience a luxurious VIP Desert Safari in Dubai with exclusive seating, table service, and premium performances for an unforgettable evening.",
+      desc: "Experience a luxurious Premium Desert Safari in Dubai with exclusive seating, table service, and premium performances for an unforgettable evening.",
       inclusions: [
         "Pickup & Drop-off by 4×4 Vehicle",
         "Dune Bashing (30-35 min) & Sunset Photos",
-        "VIP Seating & Table Service",
+        "Premium Seating & Table Service",
         "Unlimited Buffet Dinner (Veg & Non-Veg)",
         "Fire, Belly & Tanura Dance Shows",
         "Arabic Coffee, Dates & Refreshments",
@@ -37,7 +37,7 @@ const Safari = () => {
     {
       id: 3,
       title: "Private Desert Safari",
-      price: "AED 700",
+      price: "AED 1200",
       image: "https://saharadesertdubai.com/storage/tours/images/8VuhkFbzBdDrJK0ar7zrbHaQ1AGnfcRUpPfQf0Br.jpg",
       desc: "Enjoy exclusivity and comfort with a Private Desert Safari in Dubai — designed for couples and families seeking privacy and luxury.",
       inclusions: [
@@ -60,14 +60,14 @@ const Safari = () => {
   return (
     <div className="w-full bg-[#F8FAFC] font-sans pb-20">
       {/* 🔹 1. Hero Header */}
-      <section className="relative w-full h-[40vh] flex items-center justify-center bg-[#003366] overflow-hidden">
-        <div className="absolute inset-0 opacity-30 bg-cover bg-center" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1451337516015-6b6e9a44a8a3?q=80&w=1974&auto=format&fit=crop')" }}></div>
+      <section className="relative w-full h-[40vh] flex items-center justify-center overflow-hidden">
+        <div className="absolute inset-0 opacity-70 bg-cover bg-center" style={{ backgroundImage: "url('https://skt.ae/wp-content/uploads/2023/09/desert-banner-1024x483-1.webp')" }}></div>
         <div className="relative z-10 text-center px-4">
-          <h2 className="text-[#C4B454] font-black uppercase tracking-[0.4em] text-xs mb-2">Adventure Awaits</h2>
-          <h1 className="text-4xl md:text-6xl font-black text-white uppercase tracking-tighter">
-            Our Top <span className="text-[#C4B454]">Desert Safari</span> Packages
+          <h2 className="text-[#0c007c] font-black uppercase tracking-[0.4em] text-xs mb-2">Adventure Awaits</h2>
+          <h1 className="text-4xl md:text-6xl font-black text-[#0c007c] uppercase tracking-tighter">
+            Our Top <span className="text-[#ffffff]">Desert Safari</span> Packages
           </h1>
-          <p className="text-blue-100 font-medium mt-4 text-xs md:text-sm max-w-xl mx-auto">
+          <p className="text-[#0c007c] font-medium mt-4 text-xs md:text-sm max-w-xl mx-auto">
             Choose a curated desert experience perfect for families, couples, and adventure seekers. Book instantly via WhatsApp.
           </p>
         </div>
